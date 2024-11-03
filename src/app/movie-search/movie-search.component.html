@@ -1,0 +1,13 @@
+<div class="movie-search">
+  <input [(ngModel)]="searchQuery" placeholder="Search for a movie" />
+  <button (click)="searchMovies()">Search</button>
+</div>
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error">{{ error }}</div>
+<div *ngIf="movies.length">
+  <ul>
+    <li *ngFor="let movie of movies">
+      {{ movie.Title }} ({{ movie.Year }})
+    </li>
+  </ul>
+</div>

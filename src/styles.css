@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  
+  .movie-search {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .movie-search input {
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .movie-search button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .movie-search button:hover {
+    background-color: #4500b5;
+  }
+  
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+ 
+  .movie-item {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .movie-item h3 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .movie-item p {
+    margin: 0.5rem 0;
+  }
+ 
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+ 
+  .error {
+    text-align: center;
+    color: red;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+  }
